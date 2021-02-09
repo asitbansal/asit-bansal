@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:black;">Time Table</h1>
+<table style="width:100%">
+<tr>
+<th>Time/Day</th>
+<th>8 t0 9 AM</th>
+<th>9 t0 10 AM</th>
+<th>10 to 11 AM</th>
+<th>11:30 to 12:30 PM</th>
+<th>12:30 to 2 PM</th>
+<th>2 to 3 PM</th>
+<th>3 to 4 PM</th>
+</tr>
+
+<tr>
+<th>Mon</th>
+<td>-</td>
+<td>ITC</td>
+<td colspan="2">DSP</td>
+<th rowspan="5">Lunch Break</th>
+<td colspan="2">Communication System Lab</td>
+</tr>
+
+<tr>
+<th>Tue</th>
+<td>CS</td>
+<td>ITC</td>
+<td colspan="2">DN</td>
+<td>Web Technology</td>
+</tr>
+
+<tr>
+<th>Wed</th>
+<td> </td>
+<td> </td>
+<td>CS</td>
+<td>DSP</td>
+<td colspan="2">Data N/Ws Lab</td>
+</tr>
+
+<tr>
+<th>Thu</th>
+<td> </td>
+<td>DN</td>
+<td>ITC</td>
+<td>CS</td>
+<td>ERTOS</td>
+<td>Web Technologies</td>
+</tr>
+
+<tr>
+<th>Fri</th>
+<td>  </td>
+<td colspan="3">ERTOS</td>
+<td> </td>
+<td> </td>
+<th>12:30 to 2 PM</th>
+</tr>
+
+<tr>
+<th>Sat</th>
+<td colspan="7">Refer To The Academic Calender</td>
+</tr>
+
+

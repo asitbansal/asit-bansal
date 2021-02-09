@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 style="text-align:center;font-size:300%">Registration Form</h2>
+<p style="text-align:center;font-size:150%">For 3rd year students</p>
+
+<form action="/action_page.php">
+  <label style="font-size:200%;"for="first name">First name:</label>
+  <input style="font-size:200%; type="text" id="firstname" name="first name" value=>
+  <label style="font-size:200%; for="last name">Last name:</label>
+  <input style="font-size:200%;type="text" id="lastname" name="last name" value=><br><br>
+  <label style="font-size:200%;for="datemax">Enter your date of birth:</label><br>
+  <input type="date" id="datemax" name="datemax" max=><br><br>
+  <label style="font-size:200%;for="Roll no.">Roll No:</label><br>
+  <input style="font-size:200%;type="number" id="Rollno" name="Roll no" placeholder="181223" value=><br><br>
+  <label style="font-size:200%;for="email">Email:</label><br>
+  <input style="font-size:200%;type="email" id="email" name="email" placeholder="example@student.nitw.ac.in"value=><br><br>
+  <label style="font-size:200%;for="backlogs">Do you have any backlogs:</label>
+  <select id="backlogs" name="backlogs">
+  	<option value="Yes">Yes</option>
+  	<option value="No">No</option>
+  </select><br>
+  <label style="font-size:200%;for="courses">Choose courses(any 4):</label>
+  <select id="courses" name="courses" size="4" multiple>
+  	<option value="ITC">ITC</option>
+  	<option value="DSP">DSP</option>
+  	<option value="MM(OE)">MM</option>
+  	<option value="WT">WT</option>
+  	<option value="ERTOS">ERTOS</option>
+  	<option value="CMOS">CMOS</option>
+  </select><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
